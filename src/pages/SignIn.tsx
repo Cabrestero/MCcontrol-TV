@@ -48,11 +48,18 @@ export const SignIn = () => {
                             Regístrate
                         </Link>
                     </div>
+                    <div>
+                        <Link className="btn btn-outlined-primary d-grid gap-2 col-6 mx-auto mb-2 mt-2" type="button" to={'/forgotPassword'} >
+                            ¿Olvidaste tu contraseña?
+                        </Link>
+
+                    </div>
+
 
                 </div>
             </div>
 
-        </div>
+        </div >
 
-    </div>
+    </div >
 }
