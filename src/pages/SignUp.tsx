@@ -4,11 +4,7 @@ export const SignUp = () => {
     const [name, setName] = useState('');
     const [lastName, setLastName] = useState('');
     const [phone, setPhone] = useState('');
-
-
     const [email, setEmail] = useState('');
-    //    if (email.includes('@' && '.')) { console.log('') } else { console.log('') }
-
     const [password, setPassword] = useState('');
     const [validPassword, setValidPassword] = useState('');
 
